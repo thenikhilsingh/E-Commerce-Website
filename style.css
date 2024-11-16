@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: volkhov;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: #484848;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 30px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.brand-name {
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.brand-name a {
+  color: black;
+}
+
+.signup-nav {
+  background-color: black;
+}
+
+.signup-nav a {
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  height: px;
+  width: 100%;
+}
+
+.box-cont {
+  height: px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-top: 110px;
+  margin-bottom: 50px;
+}
+
+.box {
+  background-color: #e0e0e0;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.box1 {
+  grid-column: 1/2;
+  grid-row: 1/6;
+  display: flex;
+  justify-content: end;
+}
+
+.box2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.box3 {
+  grid-column: 2/3;
+  grid-row: 2/5;
+  background-color: white;
+}
+
+.box3 button {
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 15px 58px 15px 58px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.box3 img{
+    height: 250px;
+}
+
+.box4 {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+.box5 {
+  grid-column: 3/4;
+  grid-row: 1/6;
+  display: flex;
+  justify-content: end;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.brands ul {
+  display: flex;
+  justify-content: center;
+}
+
+.brands ul li {
+  list-style: none;
+  margin-left: 47px;
+  margin-right: 47px;
+}
+
+.float-btn {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  right: 3px;
+}
+
+.float-btn :nth-child(1) {
+  position: relative;
+  top: -40px;
+}
+
+.float-btn :nth-child(2) {
+  position: relative;
+  top: -26px;
+  right: 10px;
+}
