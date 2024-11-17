@@ -1,0 +1,15 @@
+.deal-time{
+    border: 2px solid;
+    width: 20%;
+}
+
+.deal-time button{
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px 40px 10px 40px;
+}
+
+.deal-time a{
+    color: white;
+    text-decoration: none;
+}
