@@ -8,7 +8,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 70px;
   width: 100%;
   position: fixed;
   background-color: white;
@@ -60,12 +60,12 @@ nav ul li {
 
 .box-cont {
   height: px;
-  width: 80%;
+  width: 95%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
   row-gap: 30px;
-  margin-top: 110px;
+  margin-top: 80px;
   margin-bottom: 50px;
 }
 
@@ -90,6 +90,7 @@ nav ul li {
   grid-column: 2/3;
   grid-row: 1/2;
 }
+
 .box3 {
   grid-column: 2/3;
   grid-row: 2/5;
@@ -107,7 +108,7 @@ nav ul li {
 }
 
 .box3 img{
-    height: 250px;
+    height: 200px;
 }
 
 .box4 {
@@ -122,27 +123,25 @@ nav ul li {
 }
 
 .brands {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  width: 90%;
 }
 
 .brands ul {
   display: flex;
-  justify-content: center;
 }
 
 .brands ul li {
   list-style: none;
-  margin-left: 47px;
-  margin-right: 47px;
+  margin-left: 38px;
+  margin-right: 38px;
 }
 
 .float-btn {
   display: flex;
   justify-content: center;
   position: fixed;
-  right: 3px;
+  top: 685px;
+  left: 1160px;
 }
 
 .float-btn :nth-child(1) {
